@@ -30,19 +30,8 @@ This is an **educational project** focused on understanding how search engines w
 ---
 
 ## 📂 Project Structure
+<img width="577" height="235" alt="image" src="https://github.com/user-attachments/assets/c61fac47-d004-46b6-92a5-6fb2c03997bd" />
 
-pagerank-web-crawler/
-│
-├── spider.py        # Crawls web pages and stores links
-├── sprank.py        # Computes PageRank values
-├── spdump.py        # Quick inspection of link counts
-├── spjson.py        # Converts data to graph format
-├── force.html       # Graph visualization (D3.js)
-├── spider.js        # Generated graph data
-├── .gitignore
-└── README.md
-
----
 
 ## ▶️ How to Run the Project
 
@@ -85,8 +74,12 @@ python -m http.server 8000
 Open in browser:
 
 http://localhost:8000/force.html
+```
+<img width="1366" height="768" alt="Force html_graph" src="https://github.com/user-attachments/assets/744335f4-eafb-40b1-b2a3-39b6e1fa7d9b" />
 
 
+
+```bash
 ⸻
 
 📊 Visualization
